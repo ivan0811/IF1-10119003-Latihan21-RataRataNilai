@@ -51,14 +51,13 @@ public class RataRataNilai {
         System.out.println("Rata-rata Nilainya adalah "+rata);
     }        
        
-    
     public static void main(String[] args) {
         // TODO code application logic here      
         RataRataNilai data = new RataRataNilai();        
         data.masukkanJumlah();
         data.masukkanNilai();        
         data.tampilRataRata(data.hitungRataRata());
-        System.out.println("Developed by : Ivan Faathirza");
+        System.out.println("Developed by : Ivan Faathirza");        
     }
     
 }
